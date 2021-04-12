@@ -1,4 +1,7 @@
 {
+  "$schema": "http://json-schema.org/draft-03/schema#",
+  "type": "object",
+  "required": false,
   "properties": {
     "auth_token": {
       "required": false,
@@ -42,7 +45,5 @@
       "type": "object",
       "required": false
     }
-  },
-  "required": false,
-  "type": "object"
+  }
 }
